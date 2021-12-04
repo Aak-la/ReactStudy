@@ -1,0 +1,16 @@
+.item {
+    display: inline-block;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    margin: 2px;
+    color: black;
+    cursor: pointer;
+}
+
+.item.disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+.current{
+    margin-left: 10px;
+}

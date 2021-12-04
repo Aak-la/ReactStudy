@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Democontrol from './Democontrol'
+import Pager from './components/PagerTest'
 
 
-ReactDOM.render(<Democontrol />, document.getElementById('root'));
+ReactDOM.render(<Pager />, document.getElementById('root'));
