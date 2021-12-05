@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Pager from './components/PagerTest'
+import Comp from './Comp'
 
-
-ReactDOM.render(<Pager />, document.getElementById('root'));
+ReactDOM.render(<Comp />, document.getElementById('root'));
+ 
