@@ -5,12 +5,19 @@
     margin: 2px;
     color: black;
     cursor: pointer;
+    user-select: none;
 }
 
 .item.disabled {
     color: #ccc;
     cursor: not-allowed;
+    user-select: none;
 }
 .current{
     margin-left: 10px;
+}
+.active{
+    color: rgb(35, 180, 120);
+    cursor: auto;
+    border: 1px solid #9999;
 }
