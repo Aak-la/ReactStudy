@@ -5,17 +5,18 @@ export default class Comp extends Component {
     n: 0,
   };
   handleClick = () => {
-     this.setState({
-      n: this.state.n + 1,
-    },()=>{
-      console.log(this.state.n);
-    });
+    this.setState(
+      {
+        n: this.state.n + 1,
+      },
+      () => {
+        console.log(this.state.n);
+      }
+    );
     this.setState((target) => {
-     
       return {
         n: target.n + 2,
       };
-      
     });
   };
   render() {
