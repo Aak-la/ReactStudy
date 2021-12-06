@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Democontrol from './Democontrol'
+import App from './App'
 
 
-ReactDOM.render(<Democontrol />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

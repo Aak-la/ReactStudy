@@ -1,0 +1,26 @@
+.three-layout {
+    display: flex;
+    height: 300px;
+    border: 2px solid pink;
+}
+
+
+
+.left,
+.right {
+    border: 1px solid pink;
+
+}
+
+.three-layout .left {
+    order: 1;
+}
+
+.three-layout .main {
+    order: 2;
+    flex: 1 1 auto;
+}
+
+.three-layout .right {
+    order: 3
+}
